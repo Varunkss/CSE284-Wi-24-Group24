@@ -22,7 +22,7 @@ This function initially initialises P(allele frequencies) and Q(ancestry proport
 We then estimate the ancestry in each iteration(E Stage) and then update the allele freqeuncies(M Stage) accoordingly. We run around 2500 iterations of this algorithm and only update a random 100 values in the matrix.
 Updating all of them at once results in their product converging to zero very quickly and then python rounds it down so it doesn't yield anything. 
 
-Feel free to go through our code, there are helpful comments along the way to help you understand. 
+Feel free to go through our code, there are helpful comments along the way to help you understand. We are still currently in the process of varying our training step and iterations to see which one gives us the best results.That's why we have included multiple admixture plots for now.
 
 # Original admixture results for K=3
 These are our preliminary results for K=3 for admixture on the PS2 dataset. 
