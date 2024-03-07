@@ -23,6 +23,9 @@ We then estimate the ancestry in each iteration(E Stage) and then update the all
 Updating all of them at once results in their product converging to zero very quickly and then python rounds it down so it doesn't yield anything. 
 
 
+These are our preliminary results for K=3 for admixture on the PS2 dataset. There is obviously some error which is not letting it converge. 
+
+
 
 
 
