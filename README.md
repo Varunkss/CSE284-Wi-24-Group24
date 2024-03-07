@@ -51,21 +51,23 @@ Here, we ran basic ADMIXTURE on these TCGA datasets, and in the future will run 
 
 # BRCA racial disparity analysis
 First, let's take a look at the racial makeup of breast cancer (BRCA) patients in TCGA
-[admix_brca_barplot.pdf](https://github.com/Varunkss/CSE284-Wi-24-Group24/files/14529766/admix_brca_barplot.pdf)
+
+<img width="999" alt="Screen Shot 2024-03-07 at 12 42 10 PM" src="https://github.com/Varunkss/CSE284-Wi-24-Group24/assets/59899277/71697d40-61e4-498d-bb91-ceba34d085b5">
 
 We can see that this population is mostly European, but there are enough patients of other races to do a progression free survival analysis:
-[BRCA.pdf](https://github.com/Varunkss/CSE284-Wi-24-Group24/files/14529767/BRCA.pdf)
+
+<img width="807" alt="Screen Shot 2024-03-07 at 12 42 19 PM" src="https://github.com/Varunkss/CSE284-Wi-24-Group24/assets/59899277/c3742ff5-dba1-4d5c-b140-4a94fe44389a">
 
 Interestingly, we find that admixed AFR/EUR patients have a slightly worse rate of progression, while European patients do the best overall. 
 
 # PRAD racial disparity analysis
 Next, let's look at a new cancer type, prostate cancer (PRAD).
 
-[admix_PRAD_barplot.pdf](https://github.com/Varunkss/CSE284-Wi-24-Group24/files/14529782/admix_PRAD_barplot.pdf)
+<img width="924" alt="Screen Shot 2024-03-07 at 12 42 27 PM" src="https://github.com/Varunkss/CSE284-Wi-24-Group24/assets/59899277/49fc6cea-f642-47a0-93f8-93218110280e">
 
 Similar to BRCA, we can see that this population is mostly European, but there are also enough patients of other races to do a progression free survival analysis:
 
-[PRAD.pdf](https://github.com/Varunkss/CSE284-Wi-24-Group24/files/14529788/PRAD.pdf)
+<img width="745" alt="Screen Shot 2024-03-07 at 12 42 33 PM" src="https://github.com/Varunkss/CSE284-Wi-24-Group24/assets/59899277/ebcfa33a-b3c5-477b-90d7-8074ad7a5686">
 
 We see that European patients do the worst here. Could it be a clinical or genomic difference?
 
