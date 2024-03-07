@@ -30,7 +30,9 @@ These are shown below.
 ![actual_admix_K=3](https://github.com/Varunkss/CSE284-Wi-24-Group24/assets/73237087/36273489-5d8e-4204-9422-117979f967d3)
 
 # Custom admixture results for K=3 
-The following photo contains the results we obtained from our custom admixture script. 
+The following photo contains the results we obtained from our custom admixture script for a different number of iterations and N-limit(number of values in the genotype matrix we update per iteration.) 
+![myadmix4](https://github.com/Varunkss/CSE284-Wi-24-Group24/assets/73237087/97a694b4-f286-4048-b5a0-3eb2d26c6ba9)
+
 
 ![myadmix](https://github.com/Varunkss/CSE284-Wi-24-Group24/assets/73237087/781dc1ee-998f-4ccd-9592-0c2c4f8246c5)
 
