@@ -36,11 +36,6 @@ The following photo contains the results we obtained from our custom admixture s
 
 As you can see there are some differences. Our implementation only using the EM Algorithm(multiplication of all the probabilities) mentioned in the class but the original tool also uses Quasi-Newton methods to accelerate it's optimization. We run it for more than 2000 iterations in the EM algorithm. Our code also takes significantly longer to run. It usually takes more than an hour for 1000 iterations. 
 
-## Future Work for admixture(PART1)
-
-1. Further refine the admixture code and see where we can further reduce error. Also make more parameters as inputs to the function so that it can be used easily for other codes.
-2. Run results for admixture K=5 and see how the results match up for that as well. Waited on this becuase it takes even longer to run. so debugging is a very time taking process. 
-
 ### PART 2 
 
 # Clinical impact of admixture analysis
@@ -72,6 +67,12 @@ Similar to BRCA, we can see that this population is mostly European, but there a
 We see that European patients do the worst here. Could it be a clinical or genomic difference?
 
 
+
+## Future Work for 
+
+1. Further refine the admixture code and see where we can further reduce error. Also make more parameters as inputs to the function so that it can be used easily for other codes.
+2. Run results for admixture K=5 and see how the results match up for that as well. Waited on this becuase it takes even longer to run. so debugging is a very time taking process.
+3. Run our code on the TCGA dataset and see how well it matches up against the results obtained from that. 
 
 
 
