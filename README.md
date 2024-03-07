@@ -47,23 +47,27 @@ As you can see there are some differences. Our implementation only using the EM 
 
 Certain cancer types are especially prone to racially based disparities. Breast cancer is known to have a higher incidence in caucasians (possibly due to better screening efforts) and have a higher mortality rate in african americans. We aim to recapitulate these known associations and possibly uncover additional associations with unexpected cancer types. We also hope to show that these racial disparities may exist on a spectrum, where admixted populations show an intermediate level of outcome relative to their constituent ancenstries. To conduct this analysis, we used TCGA: a massive database of over 10k cancer patients of many different tissue types and ethnic backgrounds (though still majority white). TCGA germline data is publically available in de-itentified format here: https://portal.gdc.cancer.gov/ upon reasonable request.
 
+Here, we ran basic ADMIXTURE on these TCGA datasets, and in the future will run our improved ADMIXTURE tool and investigate differences in outcomes between the two.
+
 # BRCA racial disparity analysis
 First, let's take a look at the racial makeup of breast cancer (BRCA) patients in TCGA
-
+[admix_brca_barplot.pdf](https://github.com/Varunkss/CSE284-Wi-24-Group24/files/14529766/admix_brca_barplot.pdf)
 
 We can see that this population is mostly European, but there are enough patients of other races to do a progression free survival analysis:
+[BRCA.pdf](https://github.com/Varunkss/CSE284-Wi-24-Group24/files/14529767/BRCA.pdf)
 
-
+Interestingly, we find that admixed AFR/EUR patients have a slightly worse rate of progression, while European patients do the best overall. 
 
 # PRAD racial disparity analysis
 Next, let's look at a new cancer type, prostate cancer (PRAD).
 
-
-
+[admix_PRAD_barplot.pdf](https://github.com/Varunkss/CSE284-Wi-24-Group24/files/14529782/admix_PRAD_barplot.pdf)
 
 Similar to BRCA, we can see that this population is mostly European, but there are also enough patients of other races to do a progression free survival analysis:
 
+[PRAD.pdf](https://github.com/Varunkss/CSE284-Wi-24-Group24/files/14529788/PRAD.pdf)
 
+We see that European patients do the worst here. Could it be a clinical or genomic difference?
 
 
 
