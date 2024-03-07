@@ -5,7 +5,7 @@ You can find the Project Proposal in the PDF above.
 This Project is mainly divided into 2 parts. 
 
 
-**PART 1 **
+# PART 1(Custom Admixture Python Code) 
 
 This is implementing our own code to run admixture instead of using the admixture command(admixture INPUT_BED_FILE K) which was used in PS2.
 To do this we still implement some of the preporocessing steps from PS2. 
@@ -22,8 +22,30 @@ This function initially initialises P(allele frequencies) and Q(ancestry proport
 We then estimate the ancestry in each iteration(E Stage) and then update the allele freqeuncies(M Stage) accoordingly. We run around 2500 iterations of this algorithm and only update a random 100 values in the matrix.
 Updating all of them at once results in their product converging to zero very quickly and then python rounds it down so it doesn't yield anything. 
 
+# Original admixture results for K=3
+These are our preliminary results for K=3 for admixture on the PS2 dataset. 
+These are shown below. 
+![actual_admix_K=3](https://github.com/Varunkss/CSE284-Wi-24-Group24/assets/73237087/36273489-5d8e-4204-9422-117979f967d3)
 
-These are our preliminary results for K=3 for admixture on the PS2 dataset. There is obviously some error which is not letting it converge. 
+# Custom admixture results for K=3 
+The following photo contains the results we obtained from our custom admixture script. 
+
+![myadmix](https://github.com/Varunkss/CSE284-Wi-24-Group24/assets/73237087/781dc1ee-998f-4ccd-9592-0c2c4f8246c5)
+
+As you can see there are some differences. Our implementation only using the EM Algorithm(multiplication of all the probabilities) mentioned in the class but the original tool also uses Quasi-Newton methods to accelerate it's optimization. We run it for more than 2000 iterations in the EM algorithm. Our code also takes significantly longer to run. It usually takes more than an hour for 1000 iterations. 
+
+## Future Work for admixture(PART1)
+
+1. Further refine the admixture code and see where we can further reduce error. Also make more parameters as inputs to the function so that it can be used easily for other codes.
+
+
+### PART 2 
+
+
+
+
+
+
 
 
 
