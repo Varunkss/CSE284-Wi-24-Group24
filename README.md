@@ -68,7 +68,7 @@ We see that European patients do the worst here. Could it be a clinical or genom
 
 
 
-## Future Work for 
+## Future Work 
 
 1. Further refine the admixture code and see where we can further reduce error. Also make more parameters as inputs to the function so that it can be used easily for other codes.
 2. Run results for admixture K=5 and see how the results match up for that as well. Waited on this becuase it takes even longer to run. so debugging is a very time taking process.
