@@ -44,7 +44,7 @@ As you can see there are some differences. Our implementation only using the EM 
 
 Certain cancer types are especially prone to racially based disparities. Breast cancer is known to have a higher incidence in caucasians (possibly due to better screening efforts) and have a higher mortality rate in african americans. We aim to recapitulate these known associations and possibly uncover additional associations with unexpected cancer types. We also hope to show that these racial disparities may exist on a spectrum, where admixted populations show an intermediate level of outcome relative to their constituent ancenstries. To conduct this analysis, we used TCGA: a massive database of over 10k cancer patients of many different tissue types and ethnic backgrounds (though still majority white). TCGA germline data is publically available in de-itentified format here: https://portal.gdc.cancer.gov/ upon reasonable request.
 
-Here, we ran basic ADMIXTURE on these TCGA datasets, and in the future will run our improved ADMIXTURE tool and investigate differences in outcomes between the two.
+Here, we ran custom ADMIXTURE on these TCGA datasets, and in the future will run our improved ADMIXTURE tool and investigate differences in outcomes between the two.
 
 # BRCA racial disparity analysis
 First, let's take a look at the racial makeup of breast cancer (BRCA) patients in TCGA
