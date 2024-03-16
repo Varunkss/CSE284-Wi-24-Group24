@@ -73,8 +73,9 @@ We see that European patients do the worst here. Could it be a clinical or genom
 ## Future Work 
 
 1. Further refine the admixture code and see where we can further reduce error. Also make more parameters as inputs to the function so that it can be used easily for other codes.
-2. Run results for admixture K=5 and see how the results match up for that as well. Waited on this becuase it takes even longer to run. so debugging is a very time taking process.
-3. Run our code on the TCGA dataset and see how well it matches up against the results obtained from that. 
+2. Make it faster so that it runs in a shorter duration.
+3. For K=5, we see this plot afer almost 4 hours. That is why we didn't include this in the main file. It takes far too long to calculate for our code. Even the orignal admixture tool takes more than 10x times for K=5 when compared to K=3 with the admixture tool. 
+![Untitled](https://github.com/Varunkss/CSE284-Wi-24-Group24/assets/73237087/1cf43e75-9a1f-4c80-91bd-0fbd8ece9dfb)
 
 
 
